@@ -14,10 +14,6 @@
 	text-align: center;
 }
 
-#keyboard_shortcuts_title {
-  margin-left: 12px;
-}
-
-#keyboard_shortcuts_link {
-  width: 31px !important;
+#keyboard_shortcuts_link::before {
+  content: "\f11c";
 }
